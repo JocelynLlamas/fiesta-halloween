@@ -1,0 +1,26 @@
+.video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-content {
+    position: relative;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #22ff34 !important;
+    font-size: 100px;
+    margin-top: 50%;
+}
