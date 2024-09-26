@@ -1,4 +1,23 @@
 .photo-section {
     padding: 50px;
-    background-color: #f8f9fa;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.ghost-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -50%;
+    transform: translateY(-10%);
+    width: 150px;
+    z-index: 0;
+}
+
+h2,
+p,
+a {
+    position: relative;
+    z-index: 1;
 }
