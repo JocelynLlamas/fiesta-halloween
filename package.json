@@ -1,6 +1,7 @@
 {
   "name": "fiesta-halloween",
   "version": "0.0.0",
+  "homepage": "https://jocelynllamas.github.io/halloween2024/dist",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
