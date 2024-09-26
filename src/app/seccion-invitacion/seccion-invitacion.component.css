@@ -2,10 +2,21 @@
     padding: 50px;
 }
 
-h2{
+h2 {
     color: #22ff34;
 }
 
-h4{ 
+h4 {
     color: white;
+}
+
+/* Media query para pantallas grandes (como computadoras de escritorio y laptops) */
+@media (min-width: 992px) {
+    .iframe {
+        width: 75%;
+    }
+
+    img {
+        width: 50%;
+    }
 }
