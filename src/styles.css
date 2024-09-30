@@ -1,7 +1,7 @@
-@font-face {
-    font-family: 'DevilCandle';
-    src: url('/fonts/DevilCandle.otf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Nosifer&display=swap');
+
 
 body {
     /* font-family: 'Arial', sans-serif; */
@@ -13,8 +13,9 @@ body {
 h1,
 h2 {
     /* font-family: 'Creepster', cursive; */
-    font-family: 'DevilCandle', cursive;
+    /* font-family: "Metal Mania", system-ui; */
     font-weight: bold !important;
+    font-family: "Nosifer", sans-serif;
     /* color: #22ff34 !important; */
 }
 

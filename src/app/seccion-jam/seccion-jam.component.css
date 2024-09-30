@@ -3,4 +3,48 @@
     /* background-color: #343a40; */
     background-color: #000000;
     color: white;
+    height: 100vh;
+}
+
+/* Media query para pantallas grandes (como computadoras de escritorio y laptops) */
+@media (min-width: 992px) {
+    h2 {
+        font-size: 100px;
+        color: #c508ff !important;
+    }
+
+    .ghost-image {
+        position: absolute;
+        top: 0;
+        margin-left: -22%;
+        transform: translateY(45%);
+        width: 500px;
+        z-index: 0;
+    }
+
+
+    p {
+        font-size: 1.5vw;
+        margin-top: 2%;
+    }
+
+    a {
+        font-size: 1.5vw;
+    }
+
+    h1 {
+        color: #ffffff !important;
+        margin-top: 300px;
+        font-size: 4vw;
+    }
+
+    .photo-section {
+        height: 50vh;
+    }
+
+    img {
+        position: absolute;
+        width: 30% !important;
+        left: 35%;
+    }
 }

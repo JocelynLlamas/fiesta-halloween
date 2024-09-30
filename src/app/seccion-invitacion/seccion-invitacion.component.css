@@ -3,7 +3,7 @@
 }
 
 h2 {
-    color: #22ff34;
+    color: #c508ff;
 }
 
 h4 {
@@ -14,9 +14,24 @@ h4 {
 @media (min-width: 992px) {
     .iframe {
         width: 75%;
+        height: 50%;
     }
 
     img {
         width: 50%;
+    }
+
+    h2 {
+        color: #22ff34;
+        font-size: 100px;
+    }
+    
+    h4 {
+        font-size: 50px;
+        color: white;
+    }
+
+    a{
+        font-size: 30px;
     }
 }
