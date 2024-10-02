@@ -9,7 +9,7 @@
 /* Media query para pantallas grandes (como computadoras de escritorio y laptops) */
 @media (min-width: 992px) {
     h2 {
-        font-size: 100px;
+        font-size: 3vw;
         color: #c508ff !important;
     }
 
